@@ -1,0 +1,21 @@
+.sliderIcon {
+  color: var(--tgui--secondary_hint_color);
+}
+
+/* Style for the button */
+.custom-button {
+  background: transparent; /* Makes the button background transparent */
+  
+  border-radius: 25px; /* Fully rounded corners */
+  padding: 8px 16px; /* Adjust padding to make the button shorter */
+  font-size: 14px; /* Adjust font size as needed */
+  font-weight: bold; /* Optional: makes the text bold */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Button hover effect */
+.custom-button:hover {
+  background-color: black; /* Background color on hover */
+  color: white; /* Text color on hover */
+  border: 2px solid transparent; /* Remove border color on hover */
+}
