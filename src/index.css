@@ -1,0 +1,53 @@
+/* Apply dark background and center content */
+body {
+  background-color: black; /* Dark shade for the entire screen */
+  margin: 0;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.login-container {
+  background-color: #1e1e1e; /* Slightly lighter dark background for the container */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.login-subtitle {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+.login-button {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #0078FF; /* Blue color */
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #005bb5; /* Darker blue on hover */
+}
+
+/* Ensure the rest of the app is not affected */
+.app-content {
+  background-color: aqua;/* No specific styles needed here unless you want to add additional styling for logged-in content */
+}
