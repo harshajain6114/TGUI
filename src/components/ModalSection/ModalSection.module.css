@@ -1,0 +1,12 @@
+.image {
+  display: block;
+  width: 144px;
+  height: 144px;
+}
+/* Apply dark background to the entire body */
+body {
+  background-color:black; /* Dark shade for the entire screen */
+  margin: 0;
+  height: 100vh; /* Full height of the viewport */
+ width: 100%;
+}
